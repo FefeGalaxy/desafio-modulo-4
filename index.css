@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+}
+
+.container-main {
+  margin: 0;
+}
+
+.header {
+  margin: 0;
+  background-color: #3e4144;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__nombre {
+  margin-top: 2%;
+  margin-left: 2%;
+  color: #f4f4f4;
+  font-weight: 500;
+}
+
+.header__burger-img {
+  height: 60px;
+  width: 60px;
+}
+
+.section-1 {
+  background-color: #272727;
+  overflow: auto;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-1__titulo {
+  color: #f4f4f4;
+}
+
+.section-1__titulo-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-1__titulo-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-2 {
+  background-color: #808080;
+  overflow: auto;
+  height: 400px;
+}
+
+.section-2__titulo {
+  color: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-2__parrafo {
+  color: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 35px;
+}
+
+.section-3 {
+  background-color: #696969;
+  overflow: auto;
+  height: 700px;
+}
+
+.section-3__titulo {
+  color: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-3__infos {
+  color: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.section-3__info__titulos {
+  color: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.section-4 {
+  background-color: #272727;
+  overflow: auto;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-4__inputs {
+  padding: 60px;
+}
+
+.section-4__titulo-1 {
+  color: #f4f4f4;
+  display: flex;
+  align-items: center;
+}
+
+.section-4__labels {
+  color: #f4f4f4;
+}
+
+.section-4__input {
+  width: 100%;
+}
+
+.section-4__input-e {
+  width: 100%;
+}
+
+.section-4__input__textarea {
+  width: 100%;
+  height: 100px;
+}
+
+.section-4__button {
+  background-color: #f44336;
+  border-radius: 5px;
+  width: 105%;
+  height: 40px;
+  margin-top: 10%;
+  font-weight: 500;
+}
+
+.section-5 {
+  background-color: #3e4144;
+  overflow: auto;
+  height: 200px;
+}
+
+.section-5__titulo {
+  color: #f4f4f4;
+  margin-left: 50px;
+}
+
+.section-5__instagram {
+  color: #f4f4f4;
+  margin-left: 50px;
+}
+
+.section-5__linkedin {
+  color: #f4f4f4;
+  margin-left: 50px;
+}
+
+.section-5__github {
+  color: #f4f4f4;
+  margin-left: 50px;
+}
