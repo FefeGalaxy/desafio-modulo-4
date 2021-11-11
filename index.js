@@ -25,9 +25,9 @@
 
 function addDesafio(params = {}){
     const template = document.querySelector("#conteiner-main__template");
-    const container = document.querySelector(".section-2");
+    const container = document.querySelector(".section-1");
 
-    template.content.querySelector(".section-2__titulo").textContent = params.title;
+    template.content.querySelector(".section-1__titulo").textContent = params.title;
 
     const clone = document.importNode(template.content, true);
     container.appendChild(clone);
@@ -63,16 +63,19 @@ function getDesafio(){
 
 
 function main(){
+
+    addDesafio();
+    addDesafio();
+    addDesafio();
     
-    
-    getDesafio().then(function(Desa){
+    //getDesafio().then(function(Desa){
 
         
-        for( const d of Desa){
-            addDesafio(d);
-        }
+        //for( const d of Desa){
+            //addDesafio(d);
+        //}
 
-    })
+    //})
 
 
 }
