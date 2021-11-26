@@ -12,6 +12,7 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: #000;
+  height: 60px;
 }
 
 .contacto__header-titulo-a {
@@ -27,11 +28,35 @@ body {
   width: 50px;
 }
 
+@media (min-width: 690px) {
+  .contacto__header-img {
+    display: none;
+  }
+}
+
+.header__menu {
+  display: none;
+}
+
+@media (min-width: 690px) {
+  .header__menu {
+    margin-right: 5%;
+    display: flex;
+    gap: 60px;
+  }
+}
+
 .contacto__footer {
   background-color: #252525;
   overflow: auto;
-  height: 250px;
+  height: 350px;
   width: 100%;
+}
+
+@media (min-width: 690px) {
+  .contacto__footer {
+    height: 320px;
+  }
 }
 
 .contacto__titulo {
@@ -84,7 +109,13 @@ body {
   justify-content: center;
   align-items: center;
   background-color: black;
-  height: 450px;
+  height: 700px;
+}
+
+@media (min-width: 690px) {
+  .contacto__section {
+    height: 700px;
+  }
 }
 
 .contacto__section-titulo {
@@ -92,6 +123,13 @@ body {
   margin-bottom: 5%;
   display: flex;
   align-items: center;
+}
+
+@media (min-width: 690px) {
+  .contacto__section-titulo {
+    font-size: 50px;
+    margin-left: -50%;
+  }
 }
 
 .contacto__section-labels {
@@ -103,14 +141,37 @@ body {
   gap: 30px;
 }
 
+@media (min-width: 690px) {
+  .contacto__section-labels {
+    width: 20%;
+    height: 400px;
+    margin-bottom: 100px;
+    margin-left: 50%;
+    margin-top: -10%;
+  }
+}
+
+.contacto__section__form-nombre {
+  width: 100%;
+}
+.contacto__section__form-email {
+  width: 100%;
+}
+.contacto__section__form-mensaje {
+  width: 100%;
+}
+
 .contacto__section-form-nmbr {
   color: #f4f4f4;
+  width: 100%;
 }
 .contacto__section-form-eml {
   color: #f4f4f4;
+  width: 100%;
 }
 .contacto__section-form-mnsj {
   color: #f4f4f4;
+  width: 100%;
 }
 
 .contacto__section-form-nmbr-input {
@@ -118,10 +179,24 @@ body {
   border: hidden;
 }
 
+@media (min-width: 690px) {
+  .contacto__section-form-nmbr-input {
+    height: 50px;
+    width: 108%;
+    margin-left: -3%;
+  }
+}
+
 .contacto__section-form-eml-input {
   margin-left: -3%;
   width: 107%;
   border: hidden;
+}
+
+@media (min-width: 690px) {
+  .contacto__section-form-eml-input {
+    height: 50px;
+  }
 }
 
 .contacto__section-form-mnsj-input {
@@ -131,15 +206,30 @@ body {
   border: hidden;
 }
 
+@media (min-width: 690px) {
+  .contacto__section-form-mnsj-input {
+    height: 150px;
+  }
+}
+
 .contacto__section-form-button {
   background-color: #252525;
   color: #f4f4f4;
   border-radius: 5px;
-  width: 105%;
+  width: 70%;
+  margin-top: -10%;
   height: 40px;
-  margin-top: 10%;
   font-weight: 500;
   border: hidden;
+}
+
+@media (min-width: 690px) {
+  .contacto__section-form-button {
+    width: 22%;
+    height: 60px;
+    margin-top: -4%;
+    margin-left: 50%;
+  }
 }
 
 .header__ventana {
