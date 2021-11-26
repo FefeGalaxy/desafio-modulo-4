@@ -1,0 +1,196 @@
+body {
+  margin: 0;
+}
+
+.contacto__container-todo {
+  margin: 0;
+}
+
+.contacto__header {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+}
+
+.contacto__header-titulo-a {
+  margin-top: 2%;
+  margin-left: 2%;
+  font-size: 170%;
+  text-decoration: none;
+  color: #f4f4f4;
+}
+
+.contacto__header-img {
+  height: 50px;
+  width: 50px;
+}
+
+.contacto__footer {
+  background-color: #252525;
+  overflow: auto;
+  height: 250px;
+  width: 100%;
+}
+
+.contacto__titulo {
+  text-decoration: none;
+  color: #f4f4f4;
+  margin-left: 50px;
+}
+
+.contacto__instagram {
+  color: #f4f4f4;
+  margin-left: 100px;
+  display: flex;
+  align-items: center;
+}
+.contacto__linkedin {
+  color: #f4f4f4;
+  margin-left: 100px;
+  display: flex;
+  align-items: center;
+}
+.contacto__github {
+  color: #f4f4f4;
+  margin-left: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.contacto__img-1 {
+  width: 40px;
+  height: 40px;
+  margin-left: -140px;
+}
+
+.contacto__img-2 {
+  width: 100px;
+  height: 50px;
+  margin-left: -160px;
+}
+
+.contacto__img-3 {
+  width: 70px;
+  height: 40px;
+  margin-left: -130px;
+}
+
+.contacto__section {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 450px;
+}
+
+.contacto__section-titulo {
+  color: #f4f4f4;
+  margin-bottom: 5%;
+  display: flex;
+  align-items: center;
+}
+
+.contacto__section-labels {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20%;
+  gap: 30px;
+}
+
+.contacto__section-form-nmbr {
+  color: #f4f4f4;
+}
+.contacto__section-form-eml {
+  color: #f4f4f4;
+}
+.contacto__section-form-mnsj {
+  color: #f4f4f4;
+}
+
+.contacto__section-form-nmbr-input {
+  width: 100%;
+  border: hidden;
+}
+
+.contacto__section-form-eml-input {
+  margin-left: -3%;
+  width: 107%;
+  border: hidden;
+}
+
+.contacto__section-form-mnsj-input {
+  margin-left: -3%;
+  width: 107%;
+  height: 100px;
+  border: hidden;
+}
+
+.contacto__section-form-button {
+  background-color: #252525;
+  color: #f4f4f4;
+  border-radius: 5px;
+  width: 105%;
+  height: 40px;
+  margin-top: 10%;
+  font-weight: 500;
+  border: hidden;
+}
+
+.header__ventana {
+  background-color: #00576a;
+  top: 0;
+  right: 0;
+  position: absolute;
+  width: 70%;
+  height: 60%;
+  display: flex;
+  justify-content: flex-end;
+  display: none;
+}
+
+.header__ventana-cierra-b {
+  position: absolute;
+  right: 10px;
+  background-color: #00576a;
+  width: 50px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 20px;
+  border: hidden;
+  color: #dbdbdb;
+}
+
+.header__ventana__contenido {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 40px;
+  color: #dbdbdb;
+}
+
+.ap {
+  text-decoration: none;
+  color: #dbdbdb;
+  font-weight: 700;
+  font-size: 20px;
+}
+.as {
+  text-decoration: none;
+  color: #dbdbdb;
+  font-weight: 700;
+  font-size: 20px;
+}
+.ac {
+  text-decoration: none;
+  color: #dbdbdb;
+  font-weight: 700;
+  font-size: 20px;
+}

@@ -1,0 +1,179 @@
+body {
+  margin: 0;
+}
+
+.portfolio__todo__container {
+  margin: 0;
+}
+
+.portfolio__header {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #322e47;
+}
+
+.portfolio__header-titulo-a {
+  color: floralwhite;
+  margin-top: 2%;
+  margin-left: 2%;
+  font-size: 170%;
+  text-decoration: none;
+}
+
+.portfolio__header-img {
+  height: 50px;
+  width: 50px;
+}
+
+.portfolio__section-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.portfolio__section {
+  overflow: auto;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./img/vector-beautiful-landscape-illustration.jpg);
+  background-size: 200% 100%;
+}
+
+.portfolio__section-titulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+}
+
+.portfolio__section-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio__section-content-img {
+  width: 50%;
+  height: 50%;
+}
+
+.portfolio__section-content-p {
+  padding: 30px;
+}
+
+.portfolio__section-content-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.portfolio__footer {
+  background-color: #252525;
+  overflow: auto;
+  height: 300px;
+}
+
+.portfolio__titulo {
+  text-decoration: none;
+  color: #f4f4f4;
+  margin-left: 50px;
+}
+
+.portfolio__instagram {
+  color: #f4f4f4;
+  margin-left: 100px;
+  display: flex;
+  align-items: center;
+}
+.portfolio__linkedin {
+  color: #f4f4f4;
+  margin-left: 100px;
+  display: flex;
+  align-items: center;
+}
+.portfolio__github {
+  color: #f4f4f4;
+  margin-left: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.portfolio__img-1 {
+  width: 40px;
+  height: 40px;
+  margin-left: -140px;
+}
+
+.portfolio__img-2 {
+  width: 100px;
+  height: 50px;
+  margin-left: -160px;
+}
+
+.portfolio__img-3 {
+  width: 70px;
+  height: 40px;
+  margin-left: -130px;
+}
+
+.header__ventana {
+  background-color: #37346b;
+  top: 0;
+  right: 0;
+  position: absolute;
+  width: 70%;
+  height: 60%;
+  display: flex;
+  justify-content: flex-end;
+  display: none;
+}
+
+.header__ventana-cierra-b {
+  position: absolute;
+  right: 10px;
+  background-color: #37346b;
+  width: 50px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 20px;
+  border: hidden;
+  color: #dbdbdb;
+}
+
+.header__ventana__contenido {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 40px;
+  color: #dbdbdb;
+}
+
+.ap {
+  text-decoration: none;
+  color: #dbdbdb;
+  font-weight: 700;
+  font-size: 20px;
+}
+.as {
+  text-decoration: none;
+  color: #dbdbdb;
+  font-weight: 700;
+  font-size: 20px;
+}
+.ac {
+  text-decoration: none;
+  color: #dbdbdb;
+  font-weight: 700;
+  font-size: 20px;
+}
