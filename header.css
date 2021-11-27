@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+}
+
+.header {
+  margin: 0;
+  background-color: #3f1c57;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__nombre {
+  margin-top: 2%;
+  margin-left: 2%;
+  color: #f4f4f4;
+  font-size: 150%;
+}
+
+.header__burger-img {
+  height: 50px;
+  width: 50px;
+}
+
+@media (min-width: 690px) {
+  .header__burger-img {
+    display: none;
+  }
+}
+
+.header__menu {
+  display: none;
+}
+
+@media (min-width: 690px) {
+  .header__menu {
+    margin-right: 5%;
+    display: flex;
+    gap: 60px;
+  }
+}

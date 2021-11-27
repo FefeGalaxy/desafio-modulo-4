@@ -6,7 +6,7 @@ body {
   margin: 0;
 }
 
-.portfolio__header {
+.header {
   margin: 0;
   display: flex;
   justify-content: space-between;
@@ -15,7 +15,7 @@ body {
   height: 60px;
 }
 
-.portfolio__header-titulo-a {
+.header__burger-img {
   color: floralwhite;
   margin-top: 2%;
   margin-left: 2%;
