@@ -1,0 +1,47 @@
+.section-5 {
+  background-color: #252525;
+  overflow: auto;
+  height: 300px;
+}
+
+.section-5__titulo {
+  color: #f4f4f4;
+  margin-left: 50px;
+}
+
+.section-5__instagram {
+  color: #f4f4f4;
+  margin-left: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.section-5__linkedin {
+  color: #f4f4f4;
+  margin-left: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.section-5__github {
+  color: #f4f4f4;
+  margin-left: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.section-5__img-1 {
+  width: 40px;
+  height: 40px;
+  margin-left: -140px;
+}
+.section-5__img-2 {
+  width: 100px;
+  height: 50px;
+  margin-left: -160px;
+}
+.section-5__img-3 {
+  width: 70px;
+  height: 40px;
+  margin-left: -130px;
+}

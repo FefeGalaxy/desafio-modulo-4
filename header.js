@@ -1,10 +1,11 @@
-function openWindow() {}
 
 function headerContent(e){
     const headerE = document.createElement("div");
     headerE.innerHTML = `
     <div class="header">
-                <h1 class="header__nombre">Developer jr</h1>
+                <h2 class="header__nombre">
+                <a class="ap" href="./index.html">Developer jr</a>
+                </h2>
                 <div class="header__burger">
                     <img  class="header__burger-img" src="https://cdn-icons-png.flaticon.com/512/619/619010.png" alt="">
                 </div>
@@ -25,9 +26,10 @@ function headerContent(e){
                 </section>
             </div>
     `;
-        const botonAbrir = document.querySelector(".header__burger-img");
-        const botonCerrar = document.querySelector(".header__ventana-cierra");
-        const ventana = document.querySelector(".header__ventana");
+
+        const botonAbrir = headerE.querySelector(".header__burger-img");
+        const botonCerrar = headerE.querySelector(".header__ventana-cierra");
+        const ventana = headerE.querySelector(".header__ventana");
        
         botonAbrir.addEventListener("click", ()=>{
            ventana.style.display = "inherit";
@@ -36,4 +38,8 @@ function headerContent(e){
            ventana.style.display = "";
         });
         e.appendChild(headerE);
+
+
 }
+headerContent();
+

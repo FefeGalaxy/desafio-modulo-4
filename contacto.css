@@ -6,34 +6,6 @@ body {
   margin: 0;
 }
 
-.contacto__header {
-  margin: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #000;
-  height: 60px;
-}
-
-.contacto__header-titulo-a {
-  margin-top: 2%;
-  margin-left: 2%;
-  font-size: 170%;
-  text-decoration: none;
-  color: #f4f4f4;
-}
-
-.contacto__header-img {
-  height: 50px;
-  width: 50px;
-}
-
-@media (min-width: 690px) {
-  .contacto__header-img {
-    display: none;
-  }
-}
-
 .header__menu {
   display: none;
 }

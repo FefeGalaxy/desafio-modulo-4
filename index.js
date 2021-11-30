@@ -33,6 +33,11 @@ function main(){
   const headerEl = document.querySelector(".header-content");
   headerContent(headerEl);
   
+  const footerEl = document.querySelector(".footer-content");
+  footerContent(footerEl);
+
+  const contactEl = document.querySelector(".contact-content");
+  contactContent(contactEl);
   
  // getDesafio().then(function(desafio){
    // for( const d of desafio){

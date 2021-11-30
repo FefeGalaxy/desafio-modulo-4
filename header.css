@@ -10,6 +10,15 @@ body {
   align-items: center;
 }
 
+.header-content {
+  margin-top: 0px;
+}
+
+@media (min-width: 690px) {
+  .header-content {
+  }
+}
+
 .header__nombre {
   margin-top: 2%;
   margin-left: 2%;
