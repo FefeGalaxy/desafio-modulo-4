@@ -26,10 +26,10 @@ function headerContent(e){
                 </section>
             </div>
     `;
-
-        const botonAbrir = headerE.querySelector(".header__burger-img");
-        const botonCerrar = headerE.querySelector(".header__ventana-cierra");
-        const ventana = headerE.querySelector(".header__ventana");
+    
+    const botonAbrir = headerE.querySelector(".header__burger-img");
+    const botonCerrar = headerE.querySelector(".header__ventana-cierra");
+    const ventana = headerE.querySelector(".header__ventana");
        
         botonAbrir.addEventListener("click", ()=>{
            ventana.style.display = "inherit";
@@ -39,7 +39,6 @@ function headerContent(e){
         });
         e.appendChild(headerE);
 
-
+        
 }
-headerContent();
 

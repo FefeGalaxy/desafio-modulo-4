@@ -18,4 +18,3 @@ function footerContent(e){
     `;
     e.appendChild(footerE);
 }
-footerContent();

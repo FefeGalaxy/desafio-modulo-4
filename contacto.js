@@ -55,7 +55,6 @@ function contactContent(e){
     }
 
    e.appendChild(contactE);
-   formData();
    ;
 
 

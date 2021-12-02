@@ -35,14 +35,20 @@ function main(){
   
   const footerEl = document.querySelector(".footer-content");
   footerContent(footerEl);
-
-  const contactEl = document.querySelector(".contact-content");
-  contactContent(contactEl);
   
- // getDesafio().then(function(desafio){
+
+  
+  // getDesafio().then(function(desafio){
    // for( const d of desafio){
      // addTitulo(d);
    // }
-  //});
-}
-main();
+   //});
+  }
+  main();
+
+  function contacto(){
+
+    const contactEl = document.querySelector(".contact-content");
+    contactContent(contactEl);
+    
+  }
