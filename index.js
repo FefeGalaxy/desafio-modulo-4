@@ -29,12 +29,20 @@ function addTitulo(params = {}){
 //}
 
 
+
+
 function main(){
   const headerEl = document.querySelector(".header-content");
   headerContent(headerEl);
   
+  const contactEl = document.querySelector(".contact-content");
+  contactContent(contactEl);
+  
   const footerEl = document.querySelector(".footer-content");
   footerContent(footerEl);
+
+  const portfolioEL = document.querySelector(".portfolio-content");
+  portfolioContent(portfolioEL);
   
 
   
@@ -45,10 +53,3 @@ function main(){
    //});
   }
   main();
-
-  function contacto(){
-
-    const contactEl = document.querySelector(".contact-content");
-    contactContent(contactEl);
-    
-  }

@@ -61,6 +61,7 @@ body {
   .section-2__titulo {
     font-size: 70px;
     margin-right: 50%;
+    margin-top: -5%;
   }
 }
 
@@ -69,24 +70,44 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px;
-  margin-top: 35%;
+  padding: 10%;
+  margin-top: 10%;
 }
 
 @media (min-width: 690px) {
   .section-2__parrafo {
+    float: none;
     font-size: 30px;
-    margin-top: 5%;
-    width: 550px;
-    margin-left: 60%;
+    margin-top: -10%;
+    width: 500px;
+    margin-left: 10%;
   }
 }
 
 .section-3 {
   background-image: url(./img/vertical-landscape-with-road-in-summer-forest-at-sunset-vector.jpg);
   overflow: auto;
-  height: 900px;
+  height: 100%;
   background-size: 200% 200%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 690px) {
+  .section-3 {
+    height: 900px;
+  }
+}
+
+@media (min-width: 690px) {
+  .section-3__titulo {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .section-3__titulo {
@@ -99,7 +120,13 @@ body {
 @media (min-width: 690px) {
   .section-3__titulo {
     font-size: 50px;
+    width: 100%;
+    margin-top: 100px;
   }
+}
+
+.section-3__titulo-li {
+  margin-top: -500px;
 }
 
 .section-3__infos {
@@ -111,11 +138,14 @@ body {
   padding: 30px;
 }
 
-@media (min-width: 690px) {
+@media (min-width: 790px) {
   .section-3__infos {
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    margin-top: -400px;
   }
 }
 
@@ -128,8 +158,8 @@ body {
 }
 
 .section-3__img-1 {
-  width: 50%;
-  height: 50%;
+  width: 300px;
+  height: 200px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -137,8 +167,8 @@ body {
   justify-content: center;
 }
 .section-3__img-2 {
-  width: 50%;
-  height: 50%;
+  width: 300px;
+  height: 200px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -146,8 +176,8 @@ body {
   justify-content: center;
 }
 .section-3__img-3 {
-  width: 50%;
-  height: 50%;
+  width: 300px;
+  height: 200px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -157,102 +187,10 @@ body {
 
 @media (min-width: 690px) {
   .section-3__p {
-    width: 400px;
+    width: 300px;
     display: flex;
-    margin-left: 20%;
+    margin-left: 10%;
   }
-}
-
-.section-4 {
-  background-image: url(./img/vector-landscape-illustration3.png);
-  background-size: 200% 100%;
-  overflow: auto;
-  height: 500px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-@media (min-width: 690px) {
-  .section-4 {
-    height: 700px;
-  }
-}
-
-.section-4__inputs {
-  padding: 60px;
-}
-
-@media (min-width: 690px) {
-  .section-4__inputs {
-    margin-left: 50%;
-    width: 400px;
-  }
-}
-
-.section-4__titulo-1 {
-  color: #f4f4f4;
-  display: flex;
-  align-items: center;
-}
-
-@media (min-width: 690px) {
-  .section-4__titulo {
-    font-size: 45px;
-    margin-right: 50%;
-  }
-}
-
-.section-4__labels {
-  color: #f4f4f4;
-}
-
-.section-4__input {
-  width: 100%;
-  background-color: #3e4144;
-  border: hidden;
-}
-
-@media (min-width: 690px) {
-  .section-4__input {
-    height: 40px;
-  }
-}
-
-.section-4__input-e {
-  width: 100%;
-  background-color: #3e4144;
-  border: hidden;
-}
-
-@media (min-width: 690px) {
-  .section-4__input-e {
-    height: 40px;
-  }
-}
-
-.section-4__input__textarea {
-  width: 100%;
-  height: 100px;
-  background-color: #3e4144;
-  border: hidden;
-}
-
-@media (min-width: 690px) {
-  .section-4__input__textarea {
-    height: 150px;
-  }
-}
-
-.section-4__button {
-  background-color: #a10caf;
-  border-radius: 5px;
-  width: 105%;
-  height: 40px;
-  margin-top: 10%;
-  font-weight: 500;
-  border: hidden;
 }
 
 .header__ventana {
