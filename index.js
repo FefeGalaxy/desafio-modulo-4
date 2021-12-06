@@ -41,8 +41,7 @@ function main(){
   const footerEl = document.querySelector(".footer-content");
   footerContent(footerEl);
 
-  const portfolioEL = document.querySelector(".portfolio-content");
-  portfolioContent(portfolioEL);
+
   
 
   
