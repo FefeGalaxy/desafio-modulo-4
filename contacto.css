@@ -197,9 +197,9 @@ body {
 
 @media (min-width: 690px) {
   .contacto__section-form-button {
-    width: 22%;
+    width: 32%;
     height: 60px;
-    margin-top: -4%;
+    margin-top: -90px;
     margin-left: 50%;
   }
 }
