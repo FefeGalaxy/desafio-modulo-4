@@ -1,0 +1,31 @@
+//function getDesafio(){
+    
+  //  return fetch("https://cdn.contentful.com/spaces/96le97k9rsgn/environments/master/entries?access_token=tHLOhPQdV9e9m5erEByoksWU_yGaj0eYQNOHzBR0vvc&content_type=desafio")
+    //.then(res =>{
+      //return res.json()
+    //}).then((data)=>{
+     // const fieldsCollections = data.items.map((item)=>{
+       // return{
+         // contentful: item.fields.contentful
+
+        //}
+      //})
+      //return fieldsCollections
+    //})
+  
+
+//}
+
+//function addDesafio( params = {}){
+  //  const template = document.querySelector("#section-1__template");
+    //const container = document.querySelector(".section-1__titulo");
+
+    //template.content.querySelector(".section-1__titulo-1").textContent =
+     //params.contentful;
+    //template.content.querySelector(".section-1__titulo-2").textContent =
+     //params.contentful;
+    
+   // const clone = document.importNode(template.content, true);
+    //container.appendChild(clone);
+     
+//}

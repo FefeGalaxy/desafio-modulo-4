@@ -5,7 +5,7 @@ function contactContent(e){
    <div class="contacto__section-titulo">
        <h2>Contacto</h2>
    </div>
-   <div class="contacto__section-labels">
+   <form class="contact-content">
        <div class="contacto__section__form-nombre">
    
            <label class="contacto__section-form-nmbr" for="name">nombre</label>
@@ -22,9 +22,9 @@ function contactContent(e){
             <textarea name="message" class="contacto__section-form-mnsj-input"></textarea>
        </div>
        
-   </div>
-   <button class="contacto__section-form-button">Enviar</button>
-</section>
+       <button class="contacto__section-form-button">Enviar</button>
+    </section>
+   </form>
    `
 
 

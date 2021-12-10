@@ -1,9 +1,9 @@
 function formData() {
-    const formEl = document.querySelector(".contacto__section-labels");
+    const formEl = document.querySelector(".contact-content");
     formEl.addEventListener("submit", function (e) {
       e.preventDefault();
       let formData = new FormData(e.target);
-      const obj = Object.fromEntries(formData);
+      const obj = Object.fromEntries(formData.entries());
       console.log(obj);
       const mensaje = ` user:  ${obj.name} 
     email:  ${obj.email}       
