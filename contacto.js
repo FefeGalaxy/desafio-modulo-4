@@ -23,8 +23,8 @@ function contactContent(e){
        </div>
        
        <button class="contacto__section-form-button">Enviar</button>
-    </section>
-   </form>
+       </form>
+       </section>
    `
 
 

@@ -87,7 +87,8 @@ body {
 
 @media (min-width: 690px) {
   .contacto__section {
-    height: 700px;
+    background-color: black;
+    height: 650px;
     width: 100%;
   }
 }
@@ -102,23 +103,13 @@ body {
 @media (min-width: 690px) {
   .contacto__section-titulo {
     font-size: 50px;
-    margin-left: -50%;
+    margin-left: -70%;
   }
-}
-
-.contact-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-  gap: 30px;
 }
 
 @media (min-width: 690px) {
   .contact-content {
-    margin-left: 20%;
-    margin-top: -5%;
+    margin-top: -150px;
   }
 }
 
@@ -146,6 +137,7 @@ body {
 }
 
 .contacto__section-form-nmbr-input {
+  height: 30px;
   width: 100%;
   border: hidden;
 }
@@ -154,24 +146,23 @@ body {
   .contacto__section-form-nmbr-input {
     height: 50px;
     width: 150%;
-    margin-left: -3%;
   }
 }
 
 .contacto__section-form-eml-input {
-  margin-left: -3%;
+  height: 30px;
   width: 100%;
   border: hidden;
 }
 
 @media (min-width: 690px) {
   .contacto__section-form-eml-input {
+    width: 150%;
     height: 50px;
   }
 }
 
 .contacto__section-form-mnsj-input {
-  margin-left: -3%;
   width: 100%;
   height: 100px;
   border: hidden;
@@ -179,6 +170,7 @@ body {
 
 @media (min-width: 690px) {
   .contacto__section-form-mnsj-input {
+    width: 150%;
     height: 150px;
   }
 }
@@ -187,8 +179,8 @@ body {
   background-color: #252525;
   color: #f4f4f4;
   border-radius: 5px;
-  width: 70%;
-  margin-top: -10%;
+  width: 100%;
+  margin-top: 10px;
   height: 40px;
   font-weight: 500;
   border: hidden;
@@ -199,7 +191,6 @@ body {
     width: 150%;
     font-size: 35px;
     margin-top: 10px;
-    margin-left: -2%;
   }
 }
 

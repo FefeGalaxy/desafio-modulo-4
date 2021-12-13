@@ -17,11 +17,11 @@ function main(){
 
 
   
- // getDesafio().then((res) => {
-   // for (const w of res) {
-     // addDesafio(w);
-   // }
-  //});
+  getDesafio().then((res) => {
+    for (const w of res) {
+     addDesafio(w);
+    }
+  });
   
  
   }
