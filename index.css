@@ -30,10 +30,10 @@ body {
   margin-top: 10px;
 }
 
-.section-1__titulo-2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+@media (min-width: 690px) {
+  .section-1__titulo-1 {
+    font-size: 250%;
+  }
 }
 
 .section-2 {
@@ -54,14 +54,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 25px;
+  font-size: 180%;
 }
 
 @media (min-width: 690px) {
   .section-2__titulo {
     font-size: 70px;
     margin-right: 50%;
-    margin-top: -5%;
   }
 }
 
