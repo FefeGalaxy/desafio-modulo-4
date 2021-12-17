@@ -40,7 +40,7 @@ function addPortfolio(params = {}){
     
     template.content.querySelector(".portfolio__section-content-p").textContent = params.descripcion;
 
-    template.content.querySelector(".portfolio__section-content-link").textContent = params.url;
+    template.content.querySelector(".portfolio__section-content-link").href = params.url;
     
     const clone = document.importNode(template.content, true,)
     container.appendChild(clone);

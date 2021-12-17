@@ -40,10 +40,12 @@ function addServicios(params = {}){
    
    template.content.querySelector(".servicios__section-content-p").textContent = params.descripcion;
 
-   template.content.querySelector(".servicios__section-content-link").textContent = params.url;
+   template.content.querySelector(".servicios__section-content-link").href =  params.url;
+
    
    const clone = document.importNode(template.content, true,)
    container.appendChild(clone);
+
 }
 
 
