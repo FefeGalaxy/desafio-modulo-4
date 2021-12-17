@@ -81,14 +81,14 @@ body {
   justify-content: center;
   align-items: center;
   background-color: black;
-  height: 650px;
+  height: 700px;
   width: 100%;
 }
 
 @media (min-width: 690px) {
   .contacto__section {
     background-color: black;
-    height: 650px;
+    height: 750px;
     width: 100%;
   }
 }

@@ -55,12 +55,14 @@ body {
   align-items: center;
   justify-content: center;
   font-size: 180%;
+  margin-top: 10%;
 }
 
 @media (min-width: 690px) {
   .section-2__titulo {
     font-size: 70px;
     margin-right: 50%;
+    margin-top: 5%;
   }
 }
 
@@ -70,16 +72,15 @@ body {
   align-items: center;
   justify-content: center;
   padding: 10%;
-  margin-top: 10%;
+  margin-top: 70px;
 }
 
 @media (min-width: 690px) {
   .section-2__parrafo {
-    float: none;
     font-size: 30px;
-    margin-top: -10%;
+    margin-top: 50px;
     width: 500px;
-    margin-left: 10%;
+    margin-left: 20%;
   }
 }
 

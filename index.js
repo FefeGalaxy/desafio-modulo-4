@@ -36,10 +36,11 @@ function getPresentation(){
   .then(res =>{
     return res.json()
   }).then((data)=>{
+    console.log(data);
     const fieldsCollections = data.items.map((item)=>{
       return{
-        presentacion: item.fields.presentacion
-        
+        presentacion: item.fields.presentacion,
+        descripcion: item.fields.descripcion,
       }
   })
     return fieldsCollections
@@ -51,10 +52,13 @@ function addPresentacion( params = {}){
 
    const container = document.querySelector(".section-2__titulo").textContent =
    params.presentacion;
+   const containerl = document.querySelector(".section-2__parrafo").textContent =
+   params.descripcion;
 
   
-  const clone = document.importNode(container.content, true);
+  const clone = document.importNode(container.content, true, containerl.content, true);
   container.appendChild(clone);
+  containerl.appendChild(clone);
    
 }
 
