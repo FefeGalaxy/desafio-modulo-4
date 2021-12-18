@@ -9,12 +9,12 @@ function contactContent(e){
        <div class="contacto__section__form-nombre">
    
            <label class="contacto__section-form-nmbr" for="name">nombre</label>
-           <input class="contacto__section-form-nmbr-input" type="name">
+           <input class="contacto__section-form-nmbr-input" name="name">
        </div>
        <div class="contacto__section__form-email">
    
            <label class="contacto__section-form-eml" for="email">Email</label>
-           <input class="contacto__section-form-eml-input" type="email">
+           <input class="contacto__section-form-eml-input" name="email">
        </div>
        <div class="contacto__section__form-mensaje">
    
