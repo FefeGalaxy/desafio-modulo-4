@@ -17,11 +17,6 @@ function main(){
   footerContent(footerEl);
   
   
-  getServicios().then((res) => {
-    for (const w of res) {
-     addServicios(w);
-    }
-  });
 
   
  

@@ -32,7 +32,7 @@ function addServicios(params = {}){
 
    const container = document.querySelector(".servicios__section");
 
-   template.content.querySelector(".servicios__section-titulo").textContent = params.portfolio;
+   template.content.querySelector(".servicios__section-titulo").textContent = params.titulo;
 
    template.content.querySelector(".servicios__section-content-img").src = "http:" + params.imagen;
 
