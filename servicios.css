@@ -73,6 +73,12 @@ body {
   background-size: 250% 100%;
 }
 
+@media (min-width: 690px) {
+  .servicios__section {
+    height: 1200px;
+  }
+}
+
 .servicios__section-titulo {
   display: flex;
   flex-direction: column;
@@ -92,6 +98,13 @@ body {
   height: 50%;
 }
 
+@media (min-width: 690px) {
+  .servicios__section-content-img {
+    height: 150px;
+    width: 200px;
+  }
+}
+
 .servicios__section-content-p {
   padding: 30px;
 }
@@ -99,7 +112,7 @@ body {
 @media (min-width: 690px) {
   .servicios__section-content-p {
     color: aliceblue;
-    width: 50%;
+    width: 20%;
   }
 }
 
